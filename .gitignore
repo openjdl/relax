@@ -1,0 +1,21 @@
+
+# dependencies
+**/node_modules
+
+# production
+dist
+build
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+.vscode
+#yarn.lock
+#package-lock.json
+#pnpm-lock.yaml
+*bak
+
