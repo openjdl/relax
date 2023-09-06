@@ -1,9 +1,9 @@
 const AppView = () => {
   return (
-    <div>
-      <div>左边栏目</div>
-      <div>中间操作区</div>
-      <div>右边property设置</div>
+    <div className="flex px-2 w-screen h-screen divide-x-2">
+      <div className="w-80 ">Widgets</div>
+      <div className="flex-1 ">中间操作区</div>
+      <div className="w-80 ">Properties</div>
     </div>
   );
 };
